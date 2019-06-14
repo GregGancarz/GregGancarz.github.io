@@ -1,5 +1,6 @@
 body {
 	font-family: arial;
+	margin: 0;
 }
 
 header {
@@ -7,7 +8,13 @@ header {
 	color: white;
 }
 
+h1 {
+	background-color: black;
+}
+
 main {
 	text-align: center;
 	margin: 0 auto;
+	max-width: 700px;
+	list-style: none;
 }
