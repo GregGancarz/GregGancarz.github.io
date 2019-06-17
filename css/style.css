@@ -2,17 +2,20 @@ body {
 	font-family: arial;
 	margin: 0;
 	border: 2px;
+	border-color: grey;
 }
 
 header {
 	background-color: black;
 	color: white;
 	border: 2px;
+	border-color: grey;
 }
 
 h1 {
 	background-color: black;
 	border: 2px;
+	border-color: grey;
 }
 
 main {
@@ -21,23 +24,27 @@ main {
 	max-width: 700px;
 	list-style-type: none;
 	border: 2px;
-
+	border-color: grey;
 }
 
 .about {
 	border: 2px;
+	border-color: grey;
 }
 
 p {
 	border: 2px;
+	border-color: grey;
 }
 
 ul {
 	border: 2px;
+	border-color: grey;
 }
 
 li {
 	border: 2px;
+	border-color: grey;
 }
 
 
