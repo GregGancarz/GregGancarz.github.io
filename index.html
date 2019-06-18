@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>GG Development</title>
+	<title>Greg Gancarz</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
 		<nav>
-			<h5 class="a">Accountable</h5>
-			<h5 class="b">Cannabase</h5>
-			<h5 class="c">Greg's List</h5>
-			<h5 class="d">History Quest</h5>
+			<a href="#ac"><h5>Accountable</h5></a>
+			<a href="#hq"><h5>History Quest</h5></a>
+			<a href="#gl"><h5>Greg's List</h5></a>
+			<a href="#ca"><h5>Cannabase</h5></a>
 		</nav>
 	</header>
 	<main>
+
 		<section class="about-contact">
+
 			<div>
+				<h1>CONTACT</h1>
+
 				<img class="me" src="./css/images/me.jpg">
 				<div></div>
 				<a class="icon" href="https://linkedin.com/in/Gregory-Gancarz/">
@@ -25,8 +29,7 @@
 				<a href="https://Github.com/GregGancarz/">
 					<img class="icon"  src="./css/images/github.png">
 				</a>
-				<br>
-				<p>G.Gancarz@keemail.me</p>	
+
 				<br>
 				<article>
 					<h3>About</h3>
@@ -37,6 +40,17 @@
 						He is Chicago based and specializes in JavaScript, React, and Python among other languages and skills. 
 					</p>
 				</article>
+				<br>
+				<h3>Resume</h3>
+				<a href="https://web.tresorit.com/l#iPZPJkyvSg6imeemYMc2aA" target="_blank">
+					<img class="resume"  src="./css/images/resume.png">
+				</a>
+
+				<br>
+				<h3>Email</h3>
+				<p>G.Gancarz@keemail.me</p>	
+				<h3>Phone</h3>
+				<p>(630) 456 - 5382</p>	
 			</div>
 		</section>
 
@@ -44,62 +58,59 @@
 
 			<h1>PORTFOLIO</h1>
 
-			<div class="project">
+			<div class="project" id="ac">
 				<h2 class="title">Accountable</h2>
 				<div>
-					<img class="show-image" src="./css/images/accountable.png">
+					<a href="https://accountable-gjg.herokuapp.com" target="_blank">
+						<img class="show-image" src="./css/images/accountable.png">
+					</a>
 				</div>
-				<p>Accountable is an expense logging and tracking app designed to help the economically inclined user keep track of their expenses and spending app. The MERN stack app features complete CRUD functionality within React. Due to the individualistic nauture of the app, an email is required to sign-up. Currently, users will receive a welcome email upon sign up.</p>
+				<p>Accountable is an expense logging and tracking app designed to help the economically inclined user keep track of their expenses and spending habits. The MERN stack app features complete CRUD functionality within React. Due to the individualistic nature of the app, an email is required to sign-up. Currently, users will receive a welcome email upon sign up.</p>
 			</div>
 
 
 
-
-			<div class="project">
-				<h2 class="title">Greg's List</h2>
-				<div>
-					<img class="show-image" src="./css/images/gregslist.png">
-				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-
-
-			<div class="project">
+			<div class="project" id="hq">
 				<h2 class="title">History Quest</h2>
 				<div>
-					<img class="show-image" src="./css/images/hist.png">
+					<a href="https://history-quest.herokuapp.com/" target="_blank">
+						<img class="show-image" src="./css/images/hist.png">
+					</a>
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>History Quest is a single and multi-player history multiple-choice quiz game. The questions are generated from a pre-set selection, but never repeat in the same round. The build is created with only JavaScript, HTML, and CSS.</p>
 			</div>
 
-			<div class="project">
+			<div class="project" id="gl">
+				<h2 class="title">Greg's List</h2>
+				<div>
+					<a href="https://gregs-list.herokuapp.com/" target="_blank">
+						<img class="show-image" src="./css/images/gregslist.png">
+					</a>
+					
+				</div>
+				<p>Greg's List is a full CRUD posting app designed to serve as a hub for  tech industry. It includes categories for job listings, meet-ups, and prospective hires. Features Multiple model interconnectedness and bcrypt login/sign-up functionality..</p>
+			</div>
+
+
+
+			<div class="project" id="ca">
 				<h2 class="title">CannaBase</h2>
 				<div>
-					<img class="show-image" src="./css/images/cannabase.png">
+					<a href="https://cannabase.herokuapp.com" target="_blank">
+						<img class="show-image" src="./css/images/cannabase.png">
+					</a>
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>CannaBase is a full CRUD React app built with the MERN stack. Consuming a 3rd party API, the app allows users to search for and discover various varieties of cannabis based on what medical ailments they are seeking relief from, among other criteria.</p>
 			</div>
 		</section>
 	</main>	
 
 
 	<footer>
-			RANDOM footer text to display. Maybe a logo or things of that natiure. I need this done by tomorrow morning for the love of it!! 
+		<br>
+			<h2>
+				&copy Gregory Gancarz 2019
+			</h2>
 	</footer>
 <script type="text/javascript" src="app/app.js"></script>
 </body>

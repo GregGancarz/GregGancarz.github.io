@@ -16,9 +16,10 @@ header {
 	border-bottom: 2px solid grey;
 	display: inline-flex;
 	width: 100%;
-	height: 50px;
+	height: 75px;
 	align-items: center;
 	margin-bottom: 25px;
+	font-size: 20px;
 }
 
 nav	{
@@ -40,16 +41,15 @@ main {
 
 
 .about-contact {
-	opacity: .83;
+	background: rgba(220,220,220,.8);
 	display: flex;
 	width: 270px;
-	margin-left: 15px;
+	margin-left: 30px;
 	margin-right: 20px;
 	margin-top: 30px;
 	padding: 15px;
 	float: left;
 	text-align: center;
-	background: gainsboro;
 
 
 }
@@ -57,15 +57,33 @@ main {
 .show {
 	color: white;
 	float: right;
+	max-width: 80%;
 
 }
 
-.show h2 {
-	margin: 10px 35px;
+.show h1 {
+	margin: 10px 55px;
 }
+
+.project p, .title {
+	margin: 10px auto;
+	max-width: 650px;
+	text-align: center;
+}
+
+.project p {
+	font-size: 1.2em;
+}
+
+
+
 
 .icon {
 	max-height: 90px;
+}
+
+.resume {
+	max-height: 220px;
 }
 
 #linkd {
@@ -85,9 +103,10 @@ main {
 	opacity: 1.0;
 	display: block;
 	position: relative;
-	max-width: 95%;
+	max-width: 82%;
 	margin: 0 auto;
 	text-align: center;
+	border: 2px black solid;
 }
 
 .project {
@@ -98,8 +117,47 @@ main {
 
 }
 
+img {
+	transition: 1s ease;
+}
+
+img:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: 1s ease;
+}
+
+.show-image:hover {
+	-webkit-transform: scale(1.04);
+	-ms-transform: scale(1.04);
+	transform: scale(1.04);
+	transition: 1s ease;
+}
+
+
+.resume:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	transition: 1s ease;
+}
+
+
+header a {
+	text-decoration: none;
+	color: white;
+}
 
 
 footer {
 	text-align: center;
+	width: 100%;
+	background: rgba(220,220,220,.8);
+	height: 70px;
+}
+
+footer h2 {
+	margin: auto;
+	top: 50%;
 }
