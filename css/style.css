@@ -1,7 +1,7 @@
 body {
 	font-family: arial;
 	margin: 0;
-	background-image: url("./images/nightSpace.jpg");
+	background-image: url("./images/ocean.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;	
 
@@ -28,9 +28,6 @@ nav	{
 	justify-content: space-evenly;
 }
 
-ul {
-
-}
 
 
 /* -------------------------------- */
@@ -38,7 +35,7 @@ ul {
 main {
 	display: flex;
 	flex-direction: row;
-	height: fill;
+	align-items: flex-start;
 }
 
 
@@ -52,22 +49,27 @@ main {
 	padding: 15px;
 	float: left;
 	text-align: center;
-	background: gainsboro
+	background: gainsboro;
+
 
 }
 
 .show {
-	color: black;
+	color: white;
 	float: right;
-	padding: 15px;
-	margin: 30px;
-	background: rgba(220,220,220,.8);
-
 
 }
 
+.show h2 {
+	margin: 10px 35px;
+}
+
 .icon {
-	max-height: 80px;
+	max-height: 90px;
+}
+
+#linkd {
+	margin-right: 10px;
 }
 
 .me {
@@ -88,6 +90,13 @@ main {
 	text-align: center;
 }
 
+.project {
+	color: black;
+	margin: 50px;
+	background: rgba(220,220,220,.8);
+	padding: 10px;
+
+}
 
 
 
