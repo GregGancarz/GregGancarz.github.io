@@ -4,7 +4,6 @@ body {
 	background-image: url("./images/nightSpace.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;	
-	opacity: .8;
 
 }
 
@@ -44,6 +43,7 @@ main {
 
 
 .about-contact {
+	opacity: .83;
 	display: flex;
 	width: 270px;
 	margin-left: 15px;
@@ -53,13 +53,17 @@ main {
 	float: left;
 	text-align: center;
 	background: gainsboro
+
 }
 
 .show {
-	color: white;
+	color: black;
 	float: right;
 	padding: 15px;
-	margin-top: 30px;
+	margin: 30px;
+	background: rgba(220,220,220,.8);
+
+
 }
 
 .icon {
@@ -76,8 +80,12 @@ main {
 
 
 .show-image {
-	max-width: 90%;
-	margin-right: 20px;
+	opacity: 1.0;
+	display: block;
+	position: relative;
+	max-width: 95%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 
