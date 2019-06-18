@@ -1,53 +1,88 @@
 body {
 	font-family: arial;
 	margin: 0;
-	border: 2px;
-	border-color: grey;
+	background-image: url("./images/nightSpace.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;	
+	opacity: .8;
+
 }
+
+
+/* --------HEADER----------------- */
 
 header {
 	background-color: black;
 	color: white;
-	border: 2px;
-	border-color: grey;
+	border-bottom: 2px solid grey;
+	display: inline-flex;
+	width: 100%;
+	height: 50px;
+	align-items: center;
+	margin-bottom: 25px;
 }
 
-h1 {
-	background-color: black;
-	border: 2px;
-	border-color: grey;
-}
-
-main {
-	text-align: center;
-	margin: 0 auto;
-	max-width: 700px;
-	list-style-type: none;
-	border: 2px;
-	border-color: grey;
-}
-
-.about {
-	border: 2px;
-	border-color: grey;
-}
-
-p {
-	border: 2px;
-	border-color: grey;
+nav	{
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	justify-content: space-evenly;
 }
 
 ul {
-	border: 2px;
-	border-color: grey;
-}
 
-li {
-	border: 2px;
-	border-color: grey;
 }
 
 
+/* -------------------------------- */
+
+main {
+	display: flex;
+	flex-direction: row;
+	height: fill;
+}
+
+
+.about-contact {
+	display: flex;
+	width: 270px;
+	margin-left: 15px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding: 15px;
+	float: left;
+	text-align: center;
+	background: gainsboro
+}
+
+.show {
+	color: white;
+	float: right;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.icon {
+	max-height: 80px;
+}
+
+.me {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	max-height: 100px;
+	border-radius: 50%
+}
 
 
 
+.show-image {
+	max-width: 90%;
+	margin-right: 20px;
+}
+
+
+
+
+footer {
+	text-align: center;
+}
