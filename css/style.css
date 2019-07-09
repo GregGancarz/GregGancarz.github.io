@@ -44,21 +44,32 @@ main {
 	background: rgba(220,220,220,.8);
 	display: flex;
 	max-width: 19%;
-	min-width: 19%;
+	min-width: 180px;
 	margin-left: 30px;
 	margin-right: 20px;
 	margin-top: 30px;
 	padding: 15px;
 	float: left;
 	text-align: center;
-
-
 }
+
+
+.billboard {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*#portfolio {
+	display: flex;
+	float: left;
+}*/
 
 .show {
 	color: white;
 	float: right;
 	max-width: 80%;
+	margin-top: 25px;
 
 }
 
@@ -89,6 +100,10 @@ main {
 
 #linkd {
 	margin-right: 10px;
+}
+
+#git-hub {
+	height: 83px;
 }
 
 .me {
@@ -155,10 +170,11 @@ footer {
 	text-align: center;
 	width: 100%;
 	background: rgba(220,220,220,.8);
-	height: 70px;
+	height: 55px;
 }
 
 footer h2 {
 	margin: auto;
 	top: 50%;
+	font-size: .9em;
 }
