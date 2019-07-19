@@ -96,21 +96,25 @@ main {
 
 .resume {
 	max-height: 220px;
+	box-shadow: 0 15px 10px -7px rgba(0,0,0, .8);
 }
 
 #linkd {
 	margin-right: 10px;
+	border-radius: 50%;
 }
 
 #git-hub {
 	height: 83px;
+	border-radius: 50%;
 }
 
 .me {
 	margin-bottom: 10px;
 	margin-top: 10px;
 	max-height: 100px;
-	border-radius: 50%
+	border-radius: 50%;
+	box-shadow: 0 15px 10px -7px rgba(0,0,0, .8);
 }
 
 
