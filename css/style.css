@@ -129,6 +129,7 @@ main {
 	border: 2px black solid;
 	box-shadow: 0 15px 10px -7px rgba(0,0,0, .8);
 	margin-bottom: 20px;
+	border-radius: 8px;
 }
 
 .project {
@@ -136,7 +137,6 @@ main {
 	margin: 50px;
 	background: rgba(220,220,220,.8);
 	padding: 10px;
-
 }
 
 img {
