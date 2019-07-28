@@ -196,7 +196,7 @@ footer h2 {
 	body {
 		display: flex;
 		flex-direction: column;	
-		font-size: 1.6em;
+		font-size: 1.5em;
 	}
 
 	main {
@@ -209,7 +209,7 @@ footer h2 {
 	}
 
 	.about-contact {
-		min-width: 85%;
+		min-width: 80%;
 		margin: 0 auto;
 		margin-top: 5%;
 	}
@@ -217,16 +217,22 @@ footer h2 {
 	.billboard {
 		display: flex;
 		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.show h1 {
+		margin: 10% auto;
 	}
 
 	.show {
-		min-width: 85%;
+		min-width: 80%;
 		margin: 0 auto;
 	}
 
 	.project {
-		min-width: 100%;
-		margin: 5% auto;
+		margin: 0 auto;
+		margin-top: 5%;
+		margin-bottom: 5%;
 
 	}
 
@@ -240,15 +246,19 @@ footer h2 {
 	}
 
 	.me {
-		min-height: 190px;
+		min-height: 170px;
 	}
 
 	.icon {
-		min-height: 140px;
+		min-height: 130px;
 	}
 
 	.resume {
 		min-height: 360px;
+	}
+
+	p {
+		margin: 0 5%;
 	}
 }
 
