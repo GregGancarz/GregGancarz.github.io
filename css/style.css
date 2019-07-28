@@ -196,7 +196,7 @@ footer h2 {
 	body {
 		display: flex;
 		flex-direction: column;	
-		font-size: 1.75em;
+		font-size: 1.6em;
 	}
 
 	main {
@@ -240,15 +240,15 @@ footer h2 {
 	}
 
 	.me {
-		min-height: 250px;
+		min-height: 190px;
 	}
 
 	.icon {
-		min-height: 200px;
+		min-height: 140px;
 	}
 
 	.resume {
-		min-height: 390px;
+		min-height: 360px;
 	}
 }
 
