@@ -47,26 +47,28 @@ main {
 	min-width: 180px;
 	margin-left: 30px;
 	margin-right: 20px;
-	margin-top: 30px;
+	margin-top: 109px;
 	padding: 15px;
 	float: left;
 	text-align: center;
 }
 
 
-.billboard {
+#portfolio {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
+	letter-spacing: 10px;
+	color: white;
+	margin: 10px 0 40px 50px;
 
+
+}
 
 
 .show {
 	color: white;
 	float: right;
 	max-width: 80%;
-	margin-top: 25px;
+	margin-top: 30px;
 
 }
 
@@ -125,6 +127,7 @@ main {
 .project {
 	color: black;
 	margin: 50px;
+	margin-top: 0;
 	background: rgba(220,220,220,.8);
 	padding: 10px;
 }
@@ -136,7 +139,7 @@ img {
 .me {
 	margin-bottom: 10px;
 	margin-top: 10px;
-	max-height: 100px;
+	max-height: 120px;
 	border-radius: 50%;
 	box-shadow: 0 15px 10px -7px rgba(0,0,0, .8);
 	transition: transform .6s ease-in-out;
